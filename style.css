@@ -1,0 +1,618 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.bodyy {
+    width: 1440px;
+    height: 6575px;
+}
+
+.headimg {
+    width: 112px;
+    height: 66px;
+    margin: 21px 0 0 121px;
+}
+
+.globeand {
+    display: flex;
+}
+
+.globe {
+    width: 22px;
+    height: 21px;
+    margin: 97px 0 43px 121px;
+}
+
+.online {
+    width: 130px;
+    height: 32px;
+    margin: 100px 0 29px 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+}
+
+.saatimg {
+    width: 22px;
+    height: 22px;
+    margin: 97px 0 43px 25px;
+}
+
+.saat {
+    width: 130px;
+    height: 32px;
+    margin: 100px 4px 29px 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+}
+
+.kalendarimg {
+    width: 20px;
+    height: 22px;
+    margin: 97px 0 43px 4px;
+}
+
+.kalendar {
+    width: 130px;
+    height: 32px;
+    margin: 100px 810px 29px 13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+}
+
+.onehone {
+    width: 628px;
+    height: 190px;
+    margin: 29px 140px 0 122px;
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 101.38%;
+}
+
+.textone {
+    width: 414px;
+    height: 62px;
+    margin: 0 354px 0 122px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.oturanadam {
+    position: absolute;
+    width: 304px;
+    height: 356px;
+    left: 890px;
+    top: 250px;
+}
+
+.goyreng {
+    width: 483.63px;
+    height: 200px;
+    margin: 177.62px 546.98px 0 409.39px;
+    background: #1e4681;
+    border-radius: 5px;
+}
+
+.goytext {
+    width: 430.59px;
+    height: 113px;
+    padding: 19.26px 27.02px 0 26.03px;
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    color: white;
+}
+
+.goyyazar {
+    width: 280.5px;
+    height: 45.64px;
+    padding: 0 0 0.02px 184.61px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+
+    text-align: right;
+
+    color: #ffffff;
+}
+
+.twohone {
+    width: 365px;
+    height: 93px;
+    margin: 173.38px 954px 0 121px;
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+
+.divone {
+    display: flex;
+}
+
+.divtwo {
+    display: flex;
+}
+
+.textwo {
+    width: 662px;
+    height: 374px;
+    margin: 18px 190px 0 121px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.duranadam {
+    position: absolute;
+    width: 314px;
+    height: 315px;
+    left: 973px;
+    top: 1230px;
+}
+
+.kran {
+    width: 232px;
+    height: 203px;
+    margin: 94px 132px 0 121px;
+}
+
+h3 {
+    width: 150px;
+    height: 39px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+}
+
+.divfour,
+.divfive,
+.divsix {
+    width: 150px;
+    height: 39px;
+    margin-top: 0;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.stwo-text {
+    margin: 164px 95px 0 132px;
+}
+
+.stwo-textt {
+    margin: 164px 93px 0 0;
+}
+
+.stwo-texttt {
+    margin: 164px 317px 0 0;
+}
+
+.divone,
+.divtwo,
+.divthree {
+    margin-bottom: 0;
+}
+
+.partthree-section-flex {
+    display: flex;
+}
+
+.threehone {
+    width: 667px;
+    height: 93px;
+    margin: 178px 652px 0 121px;
+
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+
+.partthree-h {
+    width: 150px;
+    height: 39px;
+    margin-bottom: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    color: #1e4681;
+}
+
+.partthree-p {
+    width: 223px;
+    height: 39px;
+    margin-top: 0;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.partthree-heading-one {
+    margin: 89px 195px 0 122px;
+}
+
+.partthree-heading-two {
+    margin: 89px 170px 0 0;
+}
+
+.partthree-heading-three {
+    margin: 89px 439px 0 0;
+}
+
+.partthree-hh {
+    width: 214px;
+    height: 39px;
+    margin-bottom: 0;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+
+    color: #1e4681;
+}
+
+.fourhone {
+    width: 667px;
+    height: 93px;
+    margin: 179px 652px 0 121px;
+
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+
+ul {
+    width: 662px;
+    height: 374px;
+    margin: 21px 640px 0 138px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.fivehone {
+    margin: 248px 414px 0 121px;
+    width: 905px;
+    height: 93px;
+
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+
+.partfive-sections {
+    margin-left: 84px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partfive-section-one {
+    width: 399px;
+    height: 328px;
+    margin: 95px 37px 0 0;
+    background: #ffffff;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.partfive-i {
+    width: 399px;
+    height: 160px;
+}
+
+.partfive-h {
+    width: 365px;
+    height: 39px;
+    padding: 0 14px 10px 20px;
+    margin-top: 10px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+}
+
+.partfive-p {
+    padding: 0 15px 10px 19px;
+    width: 365px;
+    height: 63px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+}
+
+.partsix {
+    background: #efefef;
+    width: 1440px;
+    height: 780px;
+}
+
+.partsix-card {
+    margin: 34px 523px 0 126px;
+    width: 791px;
+    height: 451px;
+
+    background: #ffffff;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.partsix-card-in {
+    display: flex;
+}
+
+.sixhone {
+    padding-top: 90px;
+    margin: 212px 331px 0 122px;
+    width: 987px;
+    height: 93px;
+
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+
+.partsix-p {
+    width: 700px;
+    height: 203px;
+    padding: 40px 46px 0 45px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.partsix-i {
+    width: 190px;
+    height: 169px;
+    padding: 10px 30px 0 26px;
+}
+
+.partsix-htwo {
+    width: 353px;
+    height: 59px;
+    padding: 0 192px 0 0;
+
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 101.38%;
+}
+
+.partsix-fb {
+    width: 32px;
+    height: 31px;
+    padding: 0 513px 100px 246px;
+    margin-top: -100px;
+}
+
+.partseven {
+    width: 1440px;
+    height: 780px;
+
+    background: #9dc9c8;
+}
+
+.sevenhone {
+    width: 908px;
+    height: 66px;
+    margin-top: 0px;
+    padding: 179px 410px 0 122px;
+
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+
+.partseven-price {
+    width: 170px;
+    height: 32px;
+    margin: 54px 1148px 0 122px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 101.38%;
+}
+
+.partseven-money {
+    width: 481px;
+    height: 181px;
+    margin: 0 837px 0 122px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 101.38%;
+}
+
+.partseven-card-in {
+    display: flex;
+}
+
+.partseven-h {
+    width: 294px;
+    height: 32px;
+    margin: 0 70px 9px 122px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 101.38%;
+}
+
+.partseven-p {
+    width: 294px;
+    height: 70px;
+    margin: 0 70px 185px 122px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.38%;
+}
+
+.partseven-hh {
+    width: 322px;
+    height: 32px;
+    margin: 0 632px 9px 0;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 101.38%;
+}
+
+.partseven-pp {
+    width: 294px;
+    height: 70px;
+    margin: 0 660px 185px 0;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.38%;
+}
+
+footer {
+    width: 1440px;
+    height: 390px;
+    background: black;
+}
+
+.foothead {
+    width: 115px;
+    height: 68px;
+    padding: 50px 1203px 0 122px;
+}
+
+.social {
+    display: flex;
+}
+
+.mini {
+    width: 33px;
+    height: 33px;
+    margin: 30px -100px 0 122px;
+}
+
+.foot {
+    width: 230px;
+    height: 40px;
+    margin: 146px 1088px 23px 122px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.38%;
+}
+
+.call,
+.letter {
+    display: flex;
+}
+
+.phone {
+    width: 27px;
+    height: 27px;
+    margin: 54px 22px 0 0;
+}
+
+.number {
+    width: 230px;
+    height: 40px;
+    margin: 59px 185px 0 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 101.38%;
+    color: white;
+}
+
+.let {
+    width: 27px;
+    height: 18px;
+    margin: 0 22px 266px 0;
+}
+
+.mail {
+    width: 269px;
+    height: 40px;
+    margin: 0 146px 248px 0;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 101.38%;
+}
+
+.rightfoot {
+    display: block;
+    width: 600px;
+    position: relative;
+    bottom: 400px;
+    left: 976px;
+}
