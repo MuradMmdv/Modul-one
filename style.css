@@ -1363,14 +1363,14 @@ footer {
         line-height: 101.38%;
     }
 
-  
+
 
     .divtwoo {
         width: 375px;
         display: flex;
-      
+
     }
-    
+
 
     .textwo {
         margin: 8.39px 30.53px 0 36px;
@@ -1383,7 +1383,8 @@ footer {
         line-height: 150%;
     }
 
-    .duranadam {display: block;
+    .duranadam {
+        display: block;
         position: absolute;
         width: 146.32px;
         height: 146.78px;
@@ -1394,7 +1395,7 @@ footer {
     .kran {
         display: none;
     }
-    
+
     h3 {
         width: 69.9px;
         height: 18.17px;
@@ -1436,7 +1437,7 @@ footer {
         margin-bottom: 0;
     }
 
-   
+
 
     .threehone {
         margin: 76px 28.2px 0 36px;
@@ -1483,7 +1484,11 @@ footer {
     .partthree-heading-three {
         margin: 19px 269.1px 0 36px;
     }
-    .partthree-section-flex{display: block;}
+
+    .partthree-section-flex {
+        display: block;
+    }
+
     .partthree-hh {
         margin-bottom: 0;
         width: 99.72px;
@@ -1751,9 +1756,9 @@ footer {
         margin: 13.98px -50px 0 56.85px;
     }
 
-    
 
-    
+
+
 
     .phone {
         width: 12.58px;
@@ -1792,7 +1797,9 @@ footer {
         color: white;
     }
 
-    .rightfoot{margin: 77.02px 0 0 -580px;}
+    .rightfoot {
+        margin: 77.02px 0 0 -580px;
+    }
 
     .foot {
         margin: 137.66px 196px 10px 57px;
