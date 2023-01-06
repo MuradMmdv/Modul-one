@@ -1,13 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-* {
-    font-family: "Roboto", sans-serif;
-}
+*{margin: 0;
+padding: 0;}
+
 
 .bodyy {
-    width: 1440px;
-    height: 6575px;
+   width: 100%;
 }
+
+.partone{background-color: coral;}
+.parttwo{background-color: coral;}
+.partthree{background-color: coral;}
+.partfour{background-color: coral;}
+.partfive{background-color: coral;}
+
 
 .headimg {
     width: 112px;
@@ -70,7 +76,7 @@
 .onehone {
     width: 628px;
     height: 190px;
-    margin: 29px 140px 0 122px;
+    padding: 29px 140px 0 122px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
@@ -90,12 +96,10 @@
 }
 
 .oturanadam {
-    position: absolute;
     width: 304px;
     height: 356px;
-    left: 890px;
-    top: 250px;
 }
+    
 
 .goyreng {
     width: 483.63px;
@@ -120,23 +124,20 @@
 .goyyazar {
     width: 280.5px;
     height: 45.64px;
-    padding: 0 0 0.02px 184.61px;
-
+    padding: 22.12px 18.52px 0.02px 184.61px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 130%;
-
     text-align: right;
-
     color: #ffffff;
 }
 
 .twohone {
     width: 365px;
     height: 93px;
-    margin: 173.38px 954px 0 121px;
+    padding: 173.28px 0 0 121px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
@@ -163,18 +164,17 @@
     line-height: 150%;
 }
 
-.duranadam {
-    position: absolute;
+.partone-flex{display: flex;}
+
+.duranadam {padding-top: 42px;
     width: 314px;
     height: 315px;
-    left: 973px;
-    top: 1230px;
 }
 
 .kran {
     width: 232px;
     height: 203px;
-    margin: 94px 132px 0 121px;
+    padding: 94px 132px 0 121px;
 }
 
 h3 {
@@ -194,7 +194,6 @@ h3 {
     width: 150px;
     height: 39px;
     margin-top: 0;
-
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -202,16 +201,18 @@ h3 {
     line-height: 130%;
 }
 
+
+
 .stwo-text {
-    margin: 164px 95px 0 132px;
+    padding: 164px 0 1px 132px;
 }
 
 .stwo-textt {
-    margin: 164px 93px 0 0;
+    padding: 164px 0 1px 95px;
 }
 
 .stwo-texttt {
-    margin: 164px 317px 0 0;
+    padding: 164px 0 1px 93px;
 }
 
 .divone,
@@ -227,8 +228,7 @@ h3 {
 .threehone {
     width: 667px;
     height: 93px;
-    margin: 178px 652px 0 121px;
-
+    padding: 178px 0 0 121px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
@@ -261,15 +261,15 @@ h3 {
 }
 
 .partthree-heading-one {
-    margin: 89px 195px 0 122px;
+    padding: 89px 0 0 122px;
 }
 
 .partthree-heading-two {
-    margin: 89px 170px 0 0;
+    padding: 89px 0 0 122px;
 }
 
 .partthree-heading-three {
-    margin: 89px 439px 0 0;
+    padding: 89px 0 0 113px;
 }
 
 .partthree-hh {
@@ -289,8 +289,7 @@ h3 {
 .fourhone {
     width: 667px;
     height: 93px;
-    margin: 179px 652px 0 121px;
-
+    padding: 179px 0 0 121px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
@@ -311,10 +310,9 @@ ul {
 }
 
 .fivehone {
-    margin: 248px 414px 0 121px;
+    padding: 248px 0 0 121px;
     width: 905px;
     height: 93px;
-
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
@@ -324,6 +322,7 @@ ul {
 
 .partfive-sections {
     margin-left: 84px;
+    padding-bottom: 121px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -345,7 +344,7 @@ ul {
 .partfive-h {
     width: 365px;
     height: 39px;
-    padding: 0 14px 10px 20px;
+    padding: 11px 14px 32px 20px;
     margin-top: 10px;
 
     font-family: "Roboto";
@@ -356,7 +355,7 @@ ul {
 }
 
 .partfive-p {
-    padding: 0 15px 10px 19px;
+    padding: 0 15px 0 19px;
     width: 365px;
     height: 63px;
 
@@ -367,17 +366,39 @@ ul {
     line-height: 130%;
 }
 
+.partfive-hh {
+    padding: 16px 14px 1px 20px;
+    width: 365px;
+height: 71px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 97%;
+}
+
+.partfive-pp {
+    padding: 0 15px 23px 19px;
+    width: 365px;
+    height: 63px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+}
+
 .partsix {
     background: #efefef;
-    width: 1440px;
-    height: 780px;
+    
+    
+    padding-bottom: 111px;
 }
 
 .partsix-card {
     margin: 34px 523px 0 126px;
     width: 791px;
     height: 451px;
-
     background: #ffffff;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
@@ -388,11 +409,9 @@ ul {
 }
 
 .sixhone {
-    padding-top: 90px;
-    margin: 212px 331px 0 122px;
+   padding:  212px 0 0 122px;
     width: 987px;
     height: 93px;
-
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
@@ -421,8 +440,7 @@ ul {
 .partsix-htwo {
     width: 353px;
     height: 59px;
-    padding: 0 192px 0 0;
-
+    padding: 50px 192px 0 0;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
@@ -433,14 +451,11 @@ ul {
 .partsix-fb {
     width: 32px;
     height: 31px;
-    padding: 0 513px 100px 246px;
+    padding: 0 513px 68px 246px;
     margin-top: -100px;
 }
 
 .partseven {
-    width: 1440px;
-    height: 780px;
-
     background: #9dc9c8;
 }
 
@@ -448,8 +463,7 @@ ul {
     width: 908px;
     height: 66px;
     margin-top: 0px;
-    padding: 179px 410px 0 122px;
-
+    padding: 179px 0 0 122px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
@@ -488,7 +502,7 @@ ul {
 .partseven-h {
     width: 294px;
     height: 32px;
-    margin: 0 70px 9px 122px;
+    padding: 0 70px 9px 122px;
 
     font-family: "Roboto";
     font-style: normal;
@@ -500,7 +514,7 @@ ul {
 .partseven-p {
     width: 294px;
     height: 70px;
-    margin: 0 70px 185px 122px;
+    padding: 0 70px 185px 122px;
 
     font-family: "Roboto";
     font-style: normal;
@@ -512,8 +526,7 @@ ul {
 .partseven-hh {
     width: 322px;
     height: 32px;
-    margin: 0 632px 9px 0;
-
+    padding: 0 0 9px 70px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -524,8 +537,7 @@ ul {
 .partseven-pp {
     width: 294px;
     height: 70px;
-    margin: 0 660px 185px 0;
-
+    padding: 0 0 185px 70px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -533,39 +545,32 @@ ul {
     line-height: 101.38%;
 }
 
-footer {
-    width: 1440px;
+footer{width: 100%;
     height: 390px;
     background: black;
 }
 
 .foothead {
+   
     width: 115px;
     height: 68px;
-    padding: 50px 1203px 0 122px;
+    padding: 50px 0 0 122px;
 }
 
 .social {
     display: flex;
+    padding: 30px 0 0 122px;
+    
 }
 
 .mini {
     width: 33px;
     height: 33px;
-    margin: 30px -100px 0 122px;
+    padding-right: 20px;
 }
 
-.foot {
-    width: 230px;
-    height: 40px;
-    margin: 146px 1088px 23px 122px;
-    color: #ffffff;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 101.38%;
-}
+
+.footer-flex{display: flex;}
 
 .call,
 .letter {
@@ -575,14 +580,12 @@ footer {
 .phone {
     width: 27px;
     height: 27px;
-    margin: 54px 22px 0 0;
+    padding-right: 22px;
 }
 
 .number {
     width: 230px;
     height: 40px;
-    margin: 59px 185px 0 0;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -594,13 +597,13 @@ footer {
 .let {
     width: 27px;
     height: 18px;
-    margin: 0 22px 266px 0;
+    padding-right: 22px;
+    padding-top: 10px;
 }
 
 .mail {
     width: 269px;
     height: 40px;
-    margin: 0 146px 248px 0;
     color: white;
     font-family: 'Roboto';
     font-style: normal;
@@ -609,24 +612,33 @@ footer {
     line-height: 101.38%;
 }
 
-.rightfoot {
-    display: block;
-    width: 600px;
-    position: relative;
-    bottom: 400px;
-    left: 976px;
+.rightfoot { 
+   display: flex;
 }
-
-@media (min-width: 992px) {
-    @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-
-    * {
-        font-family: "Roboto", sans-serif;
+.connect{padding: 59px 0 0 656px ;}
+   
+.foot {
+        width: 230px;
+        height: 40px;
+       padding: 148px 0 0 122px;
+        color: white;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 101.38%;
     }
+    
+    
+
+@media  (min-width: 992px) and (max-width: 1279px)  {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+    
 
     .bodyy {
-        width: 834px;
-        height: 3800px;
+        width: 100%;
+        
     }
 
     .headimg {
@@ -691,7 +703,7 @@ footer {
     }
 
     .onehone {
-        margin: 7.53px 81.08px 0 70.66px;
+        padding: 7.53px 0 0 70.66px;
         width: 363.72px;
         height: 110.04px;
         font-family: 'Roboto Slab';
@@ -713,15 +725,12 @@ footer {
     }
 
     .oturanadam {
-        position: absolute;
         width: 176.07px;
         height: 206.18px;
-        left: 515.46px;
-        top: 138.99px;
     }
 
     .goyreng {
-        margin: 102.92px 316.79px 0 237.1px;
+        margin: 50.75px 316.79px 0 237.1px;
         width: 280.11px;
         height: 115.83px;
         background: #1E4681;
@@ -741,7 +750,7 @@ footer {
     }
 
     .goyyazar {
-        padding: 0 0 4.02px 108.22px;
+        padding: 8.06px 9.42px 4.02px 108.22px;
         width: 162.46px;
         height: 26.43px;
         font-family: 'Roboto';
@@ -754,7 +763,7 @@ footer {
     }
 
     .twohone {
-        margin: 100.41px 552.53px 0 70.08px;
+        padding: 100.41px 0 0 70.08px;
         width: 211.4px;
         height: 53.86px;
         font-family: 'Roboto Slab';
@@ -784,17 +793,15 @@ footer {
     }
 
     .duranadam {
-        position: absolute;
         width: 181.86px;
         height: 182.44px;
-        left: 563.53px;
-        top: 690.36px;
+        padding-top: 42px;
     }
 
     .kran {
         width: 134.37px;
         height: 117.57px;
-        margin: 54.44px 76.45px 0 70.08px;
+        padding: 54.44px 76.45px 0 70.08px;
     }
 
     h3 {
@@ -821,15 +828,15 @@ footer {
     }
 
     .stwo-text {
-        margin: 94.98px 55.02px 0 76.45px;
+        padding: 94.98px 0 0 76.45px;
     }
 
     .stwo-textt {
-        margin: 94.98px 53.86px 0 0;
+        padding: 94.98px 0 0 55.02px;
     }
 
     .stwo-texttt {
-        margin: 94.98px 183.6px 0 0;
+        padding: 94.98px 0 0 53.86px;
     }
 
     .divone,
@@ -843,7 +850,7 @@ footer {
     }
 
     .threehone {
-        margin: 103.09px 377.62px 0 70.08px;
+        padding: 103.09px 0 0 70.08px;
         width: 386.3px;
         height: 53.86px;
         font-family: 'Roboto Slab';
@@ -877,15 +884,15 @@ footer {
     }
 
     .partthree-heading-one {
-        margin: 51.55px 112.94px 0 70.66px;
+        padding: 51.55px 0 0 70.66px;
     }
 
     .partthree-heading-two {
-        margin: 51.55px 98.46px 0 0;
+        padding: 51.55px 0 0 46px;
     }
 
     .partthree-heading-three {
-        margin: 51.55px 254.25px 0 0;
+        padding: 51.55px 0 0 98.46px;
     }
 
     .partthree-hh {
@@ -901,7 +908,7 @@ footer {
     }
 
     .fourhone {
-        margin: 103.55px 377.62px 0 70.08px;
+       padding: 103.55px 0 0 70.08px;
         width: 386.3px;
         height: 53.86px;
         font-family: 'Roboto Slab';
@@ -923,7 +930,7 @@ footer {
     }
 
     .fivehone {
-        margin: 143.63px 239.78px 0 70.08px;
+        padding: 143.63px 0 0 70.08px;
         width: 524.15px;
         height: 53.86px;
         font-family: 'Roboto Slab';
@@ -976,8 +983,30 @@ footer {
         line-height: 130%;
     }
 
+    .partfive-hh {
+        padding: 9.27px 8.11px 0.58px 11.58px;
+        width: 211.4px;
+        height: 41.12px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 97%;
+    }
+    
+    .partfive-pp {
+        padding: 0 8.69px 13.32px 11px;
+        width: 211.4px;
+        height: 36.49px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+    }
+
     .partsix {
-        width: 834px;
+        width: 100%;
         height: 451.75px;
         background: #EFEFEF;
     }
@@ -996,8 +1025,7 @@ footer {
     }
 
     .sixhone {
-        padding-top: 52.7px;
-        margin: 105.3px 191.7px 0 70.66px;
+       padding: 105.3px 0 0 70.66px;
         width: 571.64px;
         height: 53.86px;
         font-family: 'Roboto Slab';
@@ -1025,7 +1053,7 @@ footer {
     }
 
     .partsix-htwo {
-        padding: 0 111.2px 0 0;
+        padding: 28.96px 111.2px 0 0;
         width: 204.45px;
         height: 34.17px;
         font-family: 'Roboto Slab';
@@ -1038,19 +1066,19 @@ footer {
     .partsix-fb {
         width: 18.53px;
         height: 17.95px;
-        padding: 0 297.11px 50.38px 142.48px;
+        padding: 0 297.11px 39.38px 142.48px;
         margin-top: -100px;
     }
 
     .partseven {
-        width: 834px;
+        width: 100%;
         height: 451.75px;
         background: #9DC9C8;
     }
 
     .sevenhone {
         margin-top: 0px;
-        padding: 103.67px 237.46px 0 70.66px;
+        padding: 103.67px 0 0 70.66px;
         width: 525.88px;
         height: 38.23px;
         font-family: 'Roboto Slab';
@@ -1111,7 +1139,7 @@ footer {
     }
 
     .partseven-hh {
-        margin: 0 366.03px 5.21px 0;
+        padding: 0 0 5.21px 40.54px;
         width: 186.49px;
         height: 18.53px;
         font-family: 'Roboto';
@@ -1122,7 +1150,7 @@ footer {
     }
 
     .partseven-pp {
-        margin: 0 382.25px 107.15px 0;
+        padding: 0 0 107.15px 40.54px;
         width: 170.28px;
         height: 40.54px;
         font-family: 'Roboto';
@@ -1132,98 +1160,93 @@ footer {
         line-height: 101.38%;
     }
 
-    footer {
-        width: 834px;
+    footer{width: 100%;
         height: 225.88px;
-        background: #000000;
+        background: black;
     }
-
+    
     .foothead {
+       
         width: 66.6px;
         height: 39.38px;
-        padding: 28.96px 696.74px 0 70.66px;
+        padding: 28.96px 0 0 70.86px;
     }
-
+    
     .social {
         display: flex;
+        padding: 17.38px 0 0 70.66px;
+        
     }
-
+    
     .mini {
         width: 19.11px;
         height: 19.11px;
-        margin: 17.38px -50px 0 70.66px;
+        padding-right: 10.43px;
     }
-
-    .foot {
-        margin: 84.56px 630.13px 13.32px 70.66px;
-        width: 133.21px;
-        height: 23.17px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 101.38%;
-        color: #FFFFFF;
-    }
-
+    
+    
+    .footer-flex{display: flex;}
+    
     .call,
     .letter {
         display: flex;
     }
-
+    
     .phone {
         width: 15.64px;
         height: 15.64px;
-        margin: 31.28px 12.74px 0 0;
+        padding-right: 12.74px;
     }
-
+    
     .number {
-        margin: 34.17px 107.15px 0 0;
-        width: 133.21px;
-        height: 23.17px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 101.38%;
+width: 133.21px;
+height: 23.17px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 101.38%;
         color: white;
-
     }
-
+    
     .let {
         width: 15.64px;
         height: 10.43px;
-        margin: 0 12.74px 154.06px 0;
+        padding-right: 12.74px;
+        padding-top: 10px;
     }
-
+    
     .mail {
-        margin: 0 84.56px 143.63px 0;
-        width: 155.8px;
-        height: 23.17px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 101.38%;
-        color: white;
+width: 155.8px;
+height: 23.17px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 101.38%;
+color: #FFFFFF;
     }
-
-    .rightfoot {
-        display: block;
-        width: 600px;
-        position: relative;
-        bottom: 230px;
-        left: 576px;
+    
+    .rightfoot { 
+       display: flex;
     }
+    .connect{padding: 31.28px 0 0 379px ;}
+       
+    .foot {
+           padding: 85.14px 0 0 70.66px;
+           width: 133.21px;
+           height: 23.17px;
+           font-family: 'Roboto';
+           font-style: normal;
+           font-weight: 400;
+           font-size: 10px;
+           line-height: 101.38%;
+           color: blue;
+        }
 
-}
+@media (min-width: 320px) and (max-width: 991px) {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-@media (min-width: 320px) {
-    @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-
-    * {
-        font-family: "Roboto", sans-serif;
-    }
 
     .bodyy {
         width: 375px;
@@ -1341,7 +1364,7 @@ footer {
     }
 
     .goyyazar {
-        padding: 0 0 3.38px 87.07px;
+        padding: 0 7.58px 3.38px 87.07px;
         width: 130.7px;
         height: 21.27px;
         font-family: 'Roboto';
@@ -1577,6 +1600,27 @@ footer {
         font-size: 12px;
         line-height: 130%;
     }
+
+    .partfive-hh {
+        padding: 7.46px 6.52px 0.47px 9.32px;
+        width: 170.08px;
+        height: 33.08px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 97%;
+    }
+    
+    .partfive-pp {
+        padding: 0 6.99px 10.72px 8.85px;
+        width: 170.08px;
+        height: 29.36px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;}
 
     .partsix {
         width: 376px;
