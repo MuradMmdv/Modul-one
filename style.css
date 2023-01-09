@@ -1581,11 +1581,13 @@ height: 27.49px;
     }
 
     .partfive-sections {
+        padding-top: 35.66px;
         padding-left: 95px;
+        flex-direction: column;
     }
 
     .partfive-section-one {
-        margin: 35.66px 85px 0 0;
+        margin: 24.16px 0 0 0;
         width: 185.92px;
         height: 152.84px;
         background: #FFFFFF;
